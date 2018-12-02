@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="370dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="8dp"
+        android:text="test1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="373dp"
+        android:layout_height="72dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="196dp" />
 </android.support.constraint.ConstraintLayout>
